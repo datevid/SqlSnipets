@@ -1,9 +1,15 @@
 ### Create function:
 
 ```
-create or replace function ifRucReturnDNI(ruc varchar, out dni varchar)
+create or replace function fn_if_Ruc_Return_DNI(ruc varchar, out dni varchar)
 as
 $$
+-----------------------------------------------------------------------------------------------------
+-- Nombre         : fn_if_Ruc_Return_DNI
+-- Autor          : David León Vilca
+-- Verion         : 2.0
+-- Description  : convierte codigo del usuario es el ruc, obtiene el DNI a partir de éste
+-----------------------------------------------------------------------------------------------------
 declare
 
 begin
