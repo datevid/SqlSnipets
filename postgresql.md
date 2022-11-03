@@ -1,4 +1,4 @@
-Create function:
+### Create function:
 
 ```
 create or replace function ifRucReturnDNI(ruc varchar, out dni varchar)
@@ -18,7 +18,7 @@ $$
     language plpgsql;
 ```
 
-delete function function:
+### Delete function function:
 ```
 drop function ifRuc;
 ```
